@@ -1,0 +1,18 @@
+{
+  "name": "aztec-prover-stats",
+  "version": "1.0.0",
+  "description": "Track proof submissions by provers on Aztec Testnet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "stats": "node src/getStats.js"
+  },
+  "keywords": ["aztec", "ethereum", "prover", "rollup"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "dotenv": "^16.4.5"
+  }
+}
