@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "stats": "node src/getStats.js"
+    "stats": "node src/getStats.js",
+    "slash": "node src/index.js slash",
+    "slash-stats": "node src/getStats.js slash",
+    "exit": "node src/index.js exit",
+    "exit-stats": "node src/getStats.js exit"
   },
   "keywords": ["aztec", "ethereum", "prover", "rollup"],
   "author": "",
